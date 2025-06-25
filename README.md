@@ -37,7 +37,7 @@ activity-tracker/
 python -m venv .venv
 source .venv/bin/activate  # or .\.venv\Scripts\activate on Windows
 pip install -r requirements.txt
-cd scripts
+
 # 2. Preprocess raw CSVs into windowed NPZ
 python data_preprocess.py
 
