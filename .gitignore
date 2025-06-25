@@ -1,0 +1,13 @@
+# Python virtual env
+.venv/
+
+# Raw & processed data
+data/raw/
+data/processed/
+*.npz
+
+# OS / editor cruft
+__pycache__/
+*.pyc
+.idea/
+.vscode/
